@@ -16,14 +16,21 @@ nav{
     margin-left: 20px;
     align-self: flex-start;
 }
+button{
+    width: 200px;
+    height:80px;
+    margin-bottom: 50px;
+}
 a{
     text-decoration: none;
     color: white;
     font-size:x-large;
 }
 p{ 
+   font-size: 550%;
    color: white;
-   margin-bottom: 0; 
+   margin: 0;
+   
 }
 h1{ 
    
