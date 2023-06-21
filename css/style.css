@@ -26,18 +26,24 @@ a{
     color: white;
     font-size:x-large;
 }
+.accordion-button::after {
+    background-image: url(/images/add.svg);
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(/images/add.svg);
+
+}
 p{ 
    font-size: 550%;
    color: white;
    margin: 0;
    
 }
+
 h1{ 
-   
     color: white;
 }
 body{
-    width: 100vw;
     height: 100vh;
     background-color: black;
 }
