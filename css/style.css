@@ -9,12 +9,7 @@ nav{
     text-align: center;
     background-image: url("/images/banner-initial.png");
 }
-.logo{
-    width:120px;
-    height:60px;
-    margin-left: 25px;
-    align-self: flex-start;
-}
+
 button{
     width: 200px;
     height:80px;
