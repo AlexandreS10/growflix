@@ -8,7 +8,18 @@
     overflow-y: auto;
 }
 
-.container-fluid {
+.container-fluid{
+    display: flex;
+}
+
+.paragrafo{ 
+
+    font-size: 480%;
+    color: white;
+    margin-bottom: 10px;
+    
+ }
+.growcast {
     background-image: url(../images/growcast-01.png);
     background-size: cover;
     height: 700px;
@@ -22,15 +33,19 @@
     margin-left: 20px;
     align-self: flex-start;
 }
+p{
+    margin-bottom: 0;
+}
 a{
     text-decoration: none;
     color: navy
 }
-p{
-    align-self: last baseline;
-    font-size: 550%;
-    color: white;
-    margin: 0;
-    
- }
+body{
+    height: 100vh;
+    background-color: black;
+}
+.escritaFooter{
+    color:rgb(95, 92, 92);
+}
+
  

@@ -2,50 +2,104 @@
 <html lang="pt-Br">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>home</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/home.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/home.css">
 </head>
-
 <body>
-    <header >
+  <header>
+    <div class="container-fluid, growcast ">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <img src="/images/logo-growflix.svg" alt="logo-growflix" width="120" height="60">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" style=" color: rgb(148, 144, 144)" href="#">Início</a>
+              <a class="nav-link" style=" color: rgb(148, 144, 144)" href="#">Growcast[episódios]</a>
+              <a class="nav-link" style=" color: rgb(148, 144, 144)" href="#">Webinar em Flutter</a>
+              <a class="nav-link " style=" color: rgb(148, 144, 144)">Jornada UX/UI</a>
+              <a class="nav-link " style=" color: rgb(148, 144, 144)">Diversos</a>
+            </div>
+          </div>
+        </div>
+      </nav>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12"></div>
-        </div>
-        <nav class="navbar ">
-          <div class="container" style="margin: 0;">
-            <div class="row">
-              <div class="col">
-
-              </div>
-            </div>
-            <a class="navbar-brand" href="#">
-              <img  src="/images/logo-growflix.svg" alt="logo-growflix"width="120" height="60">
-              <button type="button" class="btn" style="background-color: white ;">
-                <a href="/home.html">
-                    <strong>
-                        Vamos lá!
-                    </strong>
-                </a>
-            </button>
-            </a>
+          <div class="col">
+            <p><strong>PODCAST</strong></p>
+            <p class="paragrafo"><strong>GROWCAST</strong></p>
           </div>
-        </nav>
+        </div>
       </div>
+      <button type="button" class="btn" style="background-color: white ;">
+        <a href="/home.html">
+          <strong>
+            <img src="./images/play-fill.svg"> Assitir
+          </strong>
+        </a>
+      </button>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <div class="row my-5" id="row-videos-growcast">
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row my-5" id="row-videos-webinar">
+      </div>
+    </div>
 
-    </header>
-    </main>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-    <script src="/js/index.js"></script>
-
+    <hr style=" border:solid; color: rgba(109, 127, 185, 0.973)" />
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 my-5">
+          <p class="escritaFooter">Duvidas? Ligue 0800 5910 8942</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3 ">
+          <p class="escritaFooter">Perguntas frequentes</p>
+          <p class="escritaFooter">Relações com investidores</p>
+          <p class="escritaFooter">Formas de assistir</p>
+          <p class="escritaFooter">Informações corporativas</p>
+          <p class="escritaFooter">Só na GrowFlix</p>
+        </div>
+        <div class="col-3">
+          <p class="escritaFooter">Central de ajuda</p>
+          <p class="escritaFooter">Carreiras</p>
+          <p class="escritaFooter">Termos de Uso</p>
+          <p class="escritaFooter">Entre em contato</p>
+        </div>
+        <div class="col-3">
+          <p class="escritaFooter">Conta </p>
+          <p class="escritaFooter">Resgatar cartão pré-pago</p>
+          <p class="escritaFooter">Privacidade</p>
+          <p class="escritaFooter">Teste de velocidade</p>
+        </div>
+        <div class="col-3">
+          <p class="escritaFooter">Media Center</p>
+          <p class="escritaFooter">Comprar cartão pré-pago</p>
+          <p class="escritaFooter">Preferências de cookies</p>
+          <p class="escritaFooter">Avisos legais</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 my-5">
+          <p class="escritaFooter">GrowFlix Growdev</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="./js/data.js"></script>
+  <script src="./js/home.js"></script>
 </body>
-
 </html>

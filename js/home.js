@@ -1,27 +1,45 @@
 const rowVideosGrowcast = document.getElementById("row-videos-growcast");
 const rowVideosWebinar = document.getElementById("row-videos-webinar");
 
-function renderVideos(categoria, element) {
+function renderGrowcast() {
   let html = "";
-  let itens = videos.filter((item) => item.categoria === categoria);
-  itens.forEach((item) => {
+  growcast.forEach((item) => {
     html += `
-        <div class="col-4">
-        <div class ="card" style="min-height: 500px;">
-        <img src="${item.img}" class="card-img-top" alt="..."/>
-        <div class="card-body">
-        <h5 class="card-title">${item.titulo}</h5>
-        <p class="card-text">
-        Categoria:${item.categoria}
-        </p>
-        <a href="${item.link}" class="btn btn-primary">Play</a>
-        </div>
-        </div>
-        </div>
-        
+    <div class="col-3">
+      <div class="card">
+          <img src="${item.img}" class="card-img-top" />
+          <div">
+             <p class="card-text">
+                ${item.titulo}
+              </p>
+                 <a href="${item.link}" class="btn "></a>
+          </div>
+      </div>
+    </div> 
         `;
   });
-  element.innerHTML += html;
+  rowVideosGrowcast.innerHTML += html;
 }
-renderVideos("growcast", rowVideosGrowcast);
-renderVideos("growcast", rowVideosWebinar);
+renderGrowcast();
+
+function renderWebinar(){
+  let htmlWebinar= "";
+
+  webinar.forEach((item)=>{
+    htmlWebinar += `
+    <div class="col-3">
+      <div class="card">
+          <img src="${item.img}" class="card-img-top" />
+          <div">
+             <p class="card-text">
+                ${item.titulo}
+              </p>
+                 <a href="${item.link}" class="btn "></a>
+          </div>
+      </div>
+    </div> 
+    `;
+  });
+  rowVideosWebinar.innerHTML += htmlWebinar
+}
+renderWebinar();
