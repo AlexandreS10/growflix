@@ -9,9 +9,10 @@
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/home.css">
 </head>
+
 <body>
   <header>
-    <div class="container-fluid, growcast ">
+    <div class=" growcast ">
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
           <img src="/images/logo-growflix.svg" alt="logo-growflix" width="120" height="60">
@@ -26,32 +27,26 @@
           </div>
         </div>
       </nav>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col">
-            <p><strong>PODCAST</strong></p>
-            <p class="paragrafo"><strong>GROWCAST</strong></p>
+        <div class="container">
+            <p class="mb-0"><strong>PODCAST</strong></p>
+            <p class="paragrafo mb-0"><strong>GROWCAST</strong></p>
+            <button type="button" class="btn" style="background-color: white ;margin-top: auto;">
+              <a href="/home.html">
+                <strong>
+                  <img src="./images/play-fill.svg"> Assitir
+                </strong>
+              </a>
+            </button>
           </div>
-        </div>
       </div>
-      <button type="button" class="btn" style="background-color: white ;">
-        <a href="/home.html">
-          <strong>
-            <img src="./images/play-fill.svg"> Assitir
-          </strong>
-        </a>
-      </button>
   </header>
   <main>
-    <div class="container-fluid">
-      <div class="row my-5" id="row-videos-growcast">
-      </div>
+    <div class="container-fluid" >
+      <div class="row" id="row-videos-growcast" ></div>
+      <div class="row" id="row-videos-webinar"></div>
+      <div class="row" id="row-videos-ux_ui"></div>
+      <div class="row" id="row-videos-diversos"></div>
     </div>
-    <div class="container-fluid">
-      <div class="row my-5" id="row-videos-webinar">
-      </div>
-    </div>
-
     <hr style=" border:solid; color: rgba(109, 127, 185, 0.973)" />
   </main>
   <footer>
@@ -102,4 +97,5 @@
   <script src="./js/data.js"></script>
   <script src="./js/home.js"></script>
 </body>
+
 </html>

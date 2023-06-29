@@ -1,4 +1,4 @@
-const growcast = [
+const videos = [
   {
     img: "https://img.youtube.com/vi/aJ-HZuLcKeA/sddefault.jpg",
     titulo: "Growcast #00 | Conheça a Growdev",
@@ -66,77 +66,72 @@ const growcast = [
     categoria: "podcast",
     link: (src = "https://www.youtube.com/embed/dfDgs0Ive2Q"),
   },
-];
+  {
+    img: "https://img.youtube.com/vi/WKbLXuP9S-c/sddefault.jpg",
+    titulo: "Webinar - Recriando a interface do Linkedin com Flutter",
+    categoria: "webinar",
+    link: (src = "https://www.youtube.com/embed/WKbLXuP9S-c"),
+  },
 
+  {
+    img: "https://img.youtube.com/vi/dJ6y1zMjVXU/sddefault.jpg",
+    titulo: "Webinar - Recriando a interface do Instagram com Flutter",
+    categoria: "webinar",
+    link: (src = "https://www.youtube.com/embed/dJ6y1zMjVXU"),
+  },
 
-const webinar = [
-    {
-      img: "https://img.youtube.com/vi/WKbLXuP9S-c/sddefault.jpg",
-      titulo: "Webinar - Recriando a interface do Linkedin com Flutter",
-      categoria: "webinar",
-      link: (src = "https://www.youtube.com/embed/WKbLXuP9S-c"),
-    },
-  
-    {
-      img: "https://img.youtube.com/vi/dJ6y1zMjVXU/sddefault.jpg",
-      titulo: "Webinar - Recriando a interface do Instagram com Flutter",
-      categoria: "webinar",
-      link: (src = "https://www.youtube.com/embed/dJ6y1zMjVXU"),
-    },
-  
-    {
-      img: "https://img.youtube.com/vi/8rdJsqUjsGg/sddefault.jpg",
-      titulo: "Webinar - Recriando a interface do iFood com Flutter",
-      categoria: "webinar",
-      link: (src = "https://www.youtube.com/embed/8rdJsqUjsGg"),
-    },
-  
-    {
-      img: "https://img.youtube.com/vi/C4p_7qBsECw/sddefault.jpg",
-      titulo: "Webinar - Recriando a interface do PicPay com Flutter",
-      categoria: "webinar",
-      link: (src = "https://www.youtube.com/embed/C4p_7qBsECw"),
-    },
-    {
-        img: "https://img.youtube.com/vi/L1pKoMC6hWk/sddefault.jpg",
-        titulo: "Webinar - Recriando o layout do WhatsApp com Flutter",
-        categoria: "webinar",
-        link: (src = "https://www.youtube.com/embed/L1pKoMC6hWk"),
-      }
-]
+  {
+    img: "https://img.youtube.com/vi/8rdJsqUjsGg/sddefault.jpg",
+    titulo: "Webinar - Recriando a interface do iFood com Flutter",
+    categoria: "webinar",
+    link: (src = "https://www.youtube.com/embed/8rdJsqUjsGg"),
+  },
 
-const ux= [
+  {
+    img: "https://img.youtube.com/vi/C4p_7qBsECw/sddefault.jpg",
+    titulo: "Webinar - Recriando a interface do PicPay com Flutter",
+    categoria: "webinar",
+    link: (src = "https://www.youtube.com/embed/C4p_7qBsECw"),
+  },
+  {
+      img: "https://img.youtube.com/vi/L1pKoMC6hWk/sddefault.jpg",
+      titulo: "Webinar - Recriando o layout do WhatsApp com Flutter",
+      categoria: "webinar",
+      link: (src = "https://www.youtube.com/embed/L1pKoMC6hWk"),
+    },
     {
-      img: "https://img.youtube.com/vi/-26aqPtgoEY/default.jpg",
+      img: "https://img.youtube.com/vi/-26aqPtgoEY/sddefault.jpg",
       titulo: "Live #1 Jornada UX/UI: O papel do UX/UI Designer no desenvolvimento de um produto digital - Growdev",
       categoria: "Jornada UX/UI",
       link: (src = "https://www.youtube.com/embed/-26aqPtgoEY"),
     },
   
     {
-      img: "https://img.youtube.com/vi/8sd3wuKTZMA/default.jpg",
+      img: "https://img.youtube.com/vi/8sd3wuKTZMA/sddefault.jpg",
       titulo: "Live #2 Jornada UX/UI: O profissional de UX/UI Design no mercado digital - Growdev",
       categoria: "Jornada UX/UI",
       link: (src = "https://www.youtube.com/embed/8sd3wuKTZMA"),
     },
   
     {
-      img: "https://img.youtube.com/vi/ZMZjQ9aRuIY/default.jpg",
+      img: "https://img.youtube.com/vi/ZMZjQ9aRuIY/sddefault.jpg",
       titulo: "Live #3 Jornada UX/UI: As oportunidades de estudar um programa de formação pagando após formado",
       categoria: "Jornada UX/UI",
       link: (src = "https://www.youtube.com/embed/ZMZjQ9aRuIY"),
     },
   
     {
-      img: "https://img.youtube.com/vi/cwqDu0ZzbYE/default.jpg",
+      img: "https://img.youtube.com/vi/cwqDu0ZzbYE/sddefault.jpg",
       titulo: "Live #4 Jornada UX/UI: Como migrar para o UX/UI Design: a trajetória de uma designer - Growdev",
       categoria: "Jornada UX/UI",
       link: (src = "https://www.youtube.com/embed/cwqDu0ZzbYE"),
     },
     {
-        img: "https://img.youtube.com/vi/FiZMowbaiJA/default.jpg",
+        img: "https://img.youtube.com/vi/FiZMowbaiJA/sddefault.jpg",
         titulo: "Live #5 Jornada UX/UI: O UX/UI Design é para todos?",
         categoria: "Jornada UX/UI",
         link: (src = "https://www.youtube.com/embed/FiZMowbaiJA"),
       }
-]
+
+
+];
