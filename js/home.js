@@ -11,6 +11,7 @@ function renderVideos(categoria, element) {
     const modalVideo = `staticBackdrop${index}`;
 
     html += `
+    
     <div class="col-3 mb-4">
         <div class="card border-0" style="width: 18rem;">
             <div class="zoom-card">
@@ -48,7 +49,6 @@ function hideCardBody(element) {
   cardBody.style.display = "none";
 }
 renderVideos("podcast", rowVideosGrowcast);
-renderVideos("webinar",rowVideosWebinar)
-renderVideos("Jornada UX/UI",rowVideosUx_ui)
-renderVideos("diversos",rowVideosDiversos)
-
+renderVideos("webinar", rowVideosWebinar);
+renderVideos("Jornada UX/UI", rowVideosUx_ui);
+renderVideos("diversos", rowVideosDiversos);

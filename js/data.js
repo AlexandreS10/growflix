@@ -94,44 +94,81 @@ const videos = [
     link: (src = "https://www.youtube.com/embed/C4p_7qBsECw"),
   },
   {
-      img: "https://img.youtube.com/vi/L1pKoMC6hWk/sddefault.jpg",
-      titulo: "Webinar - Recriando o layout do WhatsApp com Flutter",
-      categoria: "webinar",
-      link: (src = "https://www.youtube.com/embed/L1pKoMC6hWk"),
-    },
-    {
-      img: "https://img.youtube.com/vi/-26aqPtgoEY/sddefault.jpg",
-      titulo: "Live #1 Jornada UX/UI: O papel do UX/UI Designer no desenvolvimento de um produto digital - Growdev",
-      categoria: "Jornada UX/UI",
-      link: (src = "https://www.youtube.com/embed/-26aqPtgoEY"),
-    },
-  
-    {
-      img: "https://img.youtube.com/vi/8sd3wuKTZMA/sddefault.jpg",
-      titulo: "Live #2 Jornada UX/UI: O profissional de UX/UI Design no mercado digital - Growdev",
-      categoria: "Jornada UX/UI",
-      link: (src = "https://www.youtube.com/embed/8sd3wuKTZMA"),
-    },
-  
-    {
-      img: "https://img.youtube.com/vi/ZMZjQ9aRuIY/sddefault.jpg",
-      titulo: "Live #3 Jornada UX/UI: As oportunidades de estudar um programa de formação pagando após formado",
-      categoria: "Jornada UX/UI",
-      link: (src = "https://www.youtube.com/embed/ZMZjQ9aRuIY"),
-    },
-  
-    {
-      img: "https://img.youtube.com/vi/cwqDu0ZzbYE/sddefault.jpg",
-      titulo: "Live #4 Jornada UX/UI: Como migrar para o UX/UI Design: a trajetória de uma designer - Growdev",
-      categoria: "Jornada UX/UI",
-      link: (src = "https://www.youtube.com/embed/cwqDu0ZzbYE"),
-    },
-    {
-        img: "https://img.youtube.com/vi/FiZMowbaiJA/sddefault.jpg",
-        titulo: "Live #5 Jornada UX/UI: O UX/UI Design é para todos?",
-        categoria: "Jornada UX/UI",
-        link: (src = "https://www.youtube.com/embed/FiZMowbaiJA"),
-      }
+    img: "https://img.youtube.com/vi/L1pKoMC6hWk/sddefault.jpg",
+    titulo: "Webinar - Recriando o layout do WhatsApp com Flutter",
+    categoria: "webinar",
+    link: (src = "https://www.youtube.com/embed/L1pKoMC6hWk"),
+  },
+  {
+    img: "https://img.youtube.com/vi/-26aqPtgoEY/sddefault.jpg",
+    titulo:
+      "Live #1 Jornada UX/UI: O papel do UX/UI Designer no desenvolvimento de um produto digital - Growdev",
+    categoria: "Jornada UX/UI",
+    link: (src = "https://www.youtube.com/embed/-26aqPtgoEY"),
+  },
 
+  {
+    img: "https://img.youtube.com/vi/8sd3wuKTZMA/sddefault.jpg",
+    titulo:
+      "Live #2 Jornada UX/UI: O profissional de UX/UI Design no mercado digital - Growdev",
+    categoria: "Jornada UX/UI",
+    link: (src = "https://www.youtube.com/embed/8sd3wuKTZMA"),
+  },
 
+  {
+    img: "https://img.youtube.com/vi/ZMZjQ9aRuIY/sddefault.jpg",
+    titulo:
+      "Live #3 Jornada UX/UI: As oportunidades de estudar um programa de formação pagando após formado",
+    categoria: "Jornada UX/UI",
+    link: (src = "https://www.youtube.com/embed/ZMZjQ9aRuIY"),
+  },
+
+  {
+    img: "https://img.youtube.com/vi/cwqDu0ZzbYE/sddefault.jpg",
+    titulo:
+      "Live #4 Jornada UX/UI: Como migrar para o UX/UI Design: a trajetória de uma designer - Growdev",
+    categoria: "Jornada UX/UI",
+    link: (src = "https://www.youtube.com/embed/cwqDu0ZzbYE"),
+  },
+  {
+    img: "https://img.youtube.com/vi/FiZMowbaiJA/sddefault.jpg",
+    titulo: "Live #5 Jornada UX/UI: O UX/UI Design é para todos?",
+    categoria: "Jornada UX/UI",
+    link: (src = "https://www.youtube.com/embed/FiZMowbaiJA"),
+  },
+
+  {
+    img: "https://img.youtube.com/vi/QsuhYgsSYQo/sddefault.jpg",
+    titulo: "Célula de talentos - Uma solução Growdev",
+    categoria: "diversos",
+    link: (src = "https://www.youtube.com/embed/QsuhYgsSYQo"),
+  },
+
+  {
+    img: "https://img.youtube.com/vi/ouDn8z3PSqs/sddefault.jpg",
+    titulo: "Como é o dia a dia de um dev? Live Growdev com Marcelo Eltz",
+    categoria: "diversos",
+    link: (src = "https://www.youtube.com/embed/ouDn8z3PSqs"),
+  },
+
+  {
+    img: "https://img.youtube.com/vi/cQDQNX6NXYo/sddefault.jpg",
+    titulo:
+      "Onde trabalhar com qualidade de software? Conheça a Testing Company, empresa parceira da Growdev",
+    categoria: "diversos",
+    link: (src = "https://www.youtube.com/embed/cQDQNX6NXYo"),
+  },
+
+  {
+    img: "https://img.youtube.com/vi/nKGbolkirBM/sddefault.jpg",
+    titulo: "WEBINAR ANALISTA DE DADOS - com Paulo Marcon da Arezzo&Co",
+    categoria: "diversos",
+    link: (src = "https://www.youtube.com/embed/nKGbolkirBM"),
+  },
+  {
+    img: "https://img.youtube.com/vi/6sZPsqNjeek/sddefault.jpg",
+    titulo: "Tecnologia trazendo soluções para a Arezzo & CO | Ricardo Pinho",
+    categoria: "diversos",
+    link: (src = "https://www.youtube.com/embed/6sZPsqNjeek"),
+  },
 ];
